@@ -34,3 +34,5 @@ yarn-error.log*
 
 # misc
 .vscode
+#README
+.README.md
