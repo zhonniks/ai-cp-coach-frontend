@@ -1,8 +1,7 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
 import useScroll from "@/lib/hooks/use-scroll";
+import Link from "next/link";
 import { useSignInModal } from "./sign-in-modal";
 import UserDropdown from "./user-dropdown";
 
@@ -21,14 +20,14 @@ export default function NavBar({ session }) {
       >
         <div className="mx-5 flex h-16 max-w-screen-xl items-center justify-between xl:mx-auto">
           <Link href="/" className="flex items-center font-display text-2xl">
-            <Image
+            {/* <Image
               src="/n17r.png"
               alt="N17R logo"
               width="30"
               height="30"
               className="mr-2 rounded-sm"
-            ></Image>
-            <p>My First Project</p>
+            ></Image> */}
+            <p>AI-CP coach</p>
           </Link>
           <div>
             {session ? (
