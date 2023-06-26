@@ -1,13 +1,13 @@
-import "./globals.css";
-import Script from 'next/script';
+import Nav from "@/components/layout/nav";
 import { Analytics } from "@vercel/analytics/react";
 import cx from "classnames";
-import { sfPro, inter } from "./fonts";
-import Nav from "@/components/layout/nav";
+import Script from 'next/script';
 import { Suspense } from "react";
+import { inter, sfPro } from "./fonts";
+import "./globals.css";
 
 export const metadata = {
-  title: "My First Project",
+  title: "CP-COACH",
   description:
     "Meet your AI Jeopardy expert.",
   themeColor: "#FFF",
